@@ -1,0 +1,12 @@
+{
+    "include/*.h": {
+        "type": "simres-header",
+        "alternate": "src/{}.cpp"
+    },
+
+    "src/*.cpp": {
+        "type": "simres-source",
+        "alternate": "include/{}.h"
+    },
+
+}
