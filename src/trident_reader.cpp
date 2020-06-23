@@ -1,7 +1,7 @@
 #include "trident_reader.h"
 
 TridentReader::TridentReader(std::string const &kb_path) {
-    path_kb = "/home/mike/work/lars/trident/data/tw";
+    path_kb = kb_path;
 }
 
 TridentReader::~TridentReader() { }
@@ -9,33 +9,38 @@ TridentReader::~TridentReader() { }
 std::vector<std::shared_ptr<ares::util::Grounding>>
 TridentReader::read_background_data(ares::util::Timeline &timeline) {
     auto result = std::vector<std::shared_ptr<ares::util::Grounding>>();
-    KBConfig config;
-    auto kb = std::make_unique<KB>(path_kb.c_str(), true, true, true, config);
-    Querier *q = kb->query();
-    int64_t const KBVAR_S = -1;
-    int64_t const KBVAR_O = -2;
-    nTerm predicate_id = 0;
-    int len = 3;
-    std::string predicate_string("<b>");
-    char *predicate_key = const_cast<char *>(predicate_string.c_str());
-    bool p_found = q->nodid(predicate_key, len, &predicate_id);
-    EdgeItr *itr = q->edg_srd(KBVAR_S, predicate_id, KBVAR_O);
-    bool keep_going = true;
-    while (itr->hasNext()) {
-        itr->next();
-        int64_t subject_id = itr->getSubject();
-        int64_t object_id = itr->getObject();
-        char subject[MAX_TERM_SIZE];
-        char object[MAX_TERM_SIZE];
-        int subj_len = 0;
-        int obj_len = 0;
-        bool subj_lbl_found = q->lbl_n(subject_id, subject, subj_len);
-        bool obj_lbl_found = q->lbl_n(object_id, object, obj_len);
-        auto grounding = init_grounding(subject, predicate_string, object, 
-                timeline);
-        result.push_back(grounding);
+    if (!path_kb.empty()) {
+        KBConfig config;
+        std::cout << "kb path: " <<path_kb.c_str() << std::endl;
+        auto kb = std::make_unique<KB>(path_kb.c_str(), true, true, true, config);
+        Querier *q = kb->query();
+        int64_t const KBVAR_S = -1;
+        int64_t const KBVAR_O = -2;
+        nTerm predicate_id = 0;
+        int len = 3;
+        std::string predicate_string("<b>");
+        char *predicate_key = const_cast<char *>(predicate_string.c_str());
+        bool p_found = q->nodid(predicate_key, len, &predicate_id);
+        //std::cout << "predicate found: " << p_found << "; predicate_id: " 
+            //<< predicate_id << std::endl;
+        EdgeItr *itr = q->edg_srd(KBVAR_S, predicate_id, KBVAR_O);
+        bool keep_going = true;
+        while (itr->hasNext()) {
+            itr->next();
+            int64_t subject_id = itr->getSubject();
+            int64_t object_id = itr->getObject();
+            char subject[MAX_TERM_SIZE];
+            char object[MAX_TERM_SIZE];
+            int subj_len = 0;
+            int obj_len = 0;
+            bool subj_lbl_found = q->lbl_n(subject_id, subject, subj_len);
+            bool obj_lbl_found = q->lbl_n(object_id, object, obj_len);
+            //std::cout << predicate_string << "(" << subject << ", " << object << ");  ";
+            auto grounding = init_grounding(subject, predicate_string, object, 
+                    timeline);
+            result.push_back(grounding);
+        }
     }
-    std::cout << std::endl;
     return result;
 }
 

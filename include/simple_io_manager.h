@@ -2,8 +2,8 @@
 #define POSEIDON_SIMPLE_IO_MANAGER_H
 
 #include <memory>
-#include <vector>
 #include <utility>
+#include <vector>
 
 #include <core/io_manager.h>
 #include <util/grounding.h>
@@ -11,8 +11,8 @@
 
 #include "simple_parser.h"
 #include "simple_reader.h"
-#include "trident_reader.h"
 #include "simple_writer.h"
+#include "trident_reader.h"
 
 class SimpleIOManager : public ares::core::IOManager {
   private:
@@ -25,7 +25,9 @@ class SimpleIOManager : public ares::core::IOManager {
 
   public:
     explicit SimpleIOManager(std::string const &stream_path,
-                  std::string const &output_path, bool is_output_enabled);
+                             std::string const &kb_path,
+                             std::string const &output_path,
+                             bool is_output_enabled);
 
     ~SimpleIOManager() override = default;
 
@@ -39,11 +41,9 @@ class SimpleIOManager : public ares::core::IOManager {
     std::vector<std::shared_ptr<ares::util::Grounding>>
     read_background_data(ares::util::Timeline &timeline) override;
 
-    void
-    write_output_data(uint64_t time,
-                      std::vector<std::shared_ptr<ares::util::Grounding>>
-                          output_vector) override;
-
+    void write_output_data(uint64_t time,
+                           std::vector<std::shared_ptr<ares::util::Grounding>>
+                               output_vector) override;
 };
 
 #endif // POSEIDON_SIMPLE_IO_MANAGER_H
