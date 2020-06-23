@@ -10,6 +10,10 @@
 #include <utility>
 #include <vector>
 
+#include <trident/kb/kbconfig.h>
+#include <trident/kb/kb.h>
+#include <trident/kb/querier.h>
+
 #include <core/io_manager.h>
 #include <util/grounding.h>
 #include <util/timeline.h>
@@ -19,16 +23,16 @@
 
 class TridentReader {
 private:
-    std::string kb_path;
-    //-----
-    bool has_source = false;
-    uint64_t start_time;
-    uint64_t end_time;
-    bool has_metadata_m = false;
-    std::ifstream source;
+    std::string path_kb;
+
+    std::shared_ptr<ares::util::Grounding> init_grounding(
+        std::string subject, std::string predicate, std::string object,
+        ares::util::Timeline const &timeline
+        ) const; 
+
 
 public:
-    TridentReader(std::string const &stream_path);
+    explicit TridentReader(std::string const &kb_path);
     ~TridentReader();
 
     std::vector<std::shared_ptr<ares::util::Grounding>>

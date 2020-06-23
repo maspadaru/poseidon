@@ -1,1 +1,1 @@
-p(X, Y, Z) := b(X, Y) && a(X, Y, Z)
+<p>(X, Y, Z) := <b>(X, Y) && <a>(X, Y, Z)

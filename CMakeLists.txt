@@ -5,6 +5,10 @@ project(poseidon VERSION 0.0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
+################################### TRIDENT ################################
+include_directories(../trident/include/)
+include_directories(../trident/build/kognac/include/)
+include_directories(../trident/build/kognac/external/sparsehash/src)
 ################################### ARES ###################################
 include_directories(../ares/include/)
 file(GLOB ARES_SOURCES
@@ -22,7 +26,7 @@ file(GLOB ARES_SOURCES
 
 find_package(Threads)
 
-################################## SIMPLEAPP ##################################
+################################## POSEIDON ##################################
 include_directories(include/)
 file(GLOB POSEIDON_SOURCES
         "src/*.cpp"
@@ -31,4 +35,6 @@ file(GLOB POSEIDON_SOURCES
 set(POSEIDON_ARES_SOURCES ${ARES_SOURCES} ${POSEIDON_SOURCES})
 add_executable(poseidon main.cpp ${POSEIDON_ARES_SOURCES})
 target_link_libraries(poseidon ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries(poseidon ${CMAKE_SOURCE_DIR}/../trident/build/libtrident-sparql.so)
+target_link_libraries(poseidon ${CMAKE_SOURCE_DIR}/../trident/build/libtrident-core.so)
 
