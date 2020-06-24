@@ -27,7 +27,8 @@ class SimpleIOManager : public ares::core::IOManager {
     explicit SimpleIOManager(std::string const &stream_path,
                              std::string const &kb_path,
                              std::string const &output_path,
-                             bool is_output_enabled);
+                             bool is_output_enabled,
+                             std::vector<std::string> const &predicate_vector);
 
     ~SimpleIOManager() override = default;
 

@@ -21,15 +21,31 @@ std::string read_program(std::string const &program_path) {
     return result;
 }
 
+std::vector<std::string> get_predicate_vector(
+    std::vector<std::unique_ptr<ares::rule::Rule>> const &rule_vector) {
+    std::set<std::string> pred_set;
+    for (auto const &rule : rule_vector) {
+        auto body_pred = rule->get_body_predicates();
+        auto head_pred = rule->get_head_predicates();
+        pred_set.insert(body_pred.begin(), body_pred.end());
+    }
+    std::vector<std::string> result_vector;
+    std::copy(pred_set.begin(), pred_set.end(),
+              std::back_inserter(result_vector));
+    return result_vector;
+}
+
 void run(ares::util::ChaseAlgorithm chase_algorithm,
          std::string const &stream_path, std::string const &kb_path,
-         std::string const &output_path,
-         bool is_output_enabled, std::string const &rules) {
+         std::string const &output_path, bool is_output_enabled,
+         std::string const &rules) {
     ares::util::Settings::get_instance().set_chase_algorithm(chase_algorithm);
-    auto simple_io_manager =
-        SimpleIOManager(stream_path, kb_path, output_path, is_output_enabled);
     auto rule_parser = ares::rule::RuleParser(rules);
     auto rule_vector = rule_parser.get_rules();
+    auto pred_vector = get_predicate_vector(rule_vector);
+    auto simple_io_manager =
+        SimpleIOManager(stream_path, kb_path, output_path, is_output_enabled, 
+                pred_vector);
     auto reasoner = ares::core::Reasoner(rule_vector, &simple_io_manager);
     auto clock_start = std::chrono::high_resolution_clock::now();
     reasoner.start();
@@ -89,7 +105,6 @@ int main(int argc, char **argv) {
     }
     auto chase_algorithm = ares::util::ChaseAlgorithm::RESTRICTED;
     std::string const &rules = read_program(program_path);
-
 
     std::cout << "argc: " << argc << std::endl;
     std::cout << "Program: " << program_path << std::endl;

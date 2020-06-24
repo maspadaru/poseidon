@@ -1,0 +1,2 @@
+<type>(Y,X) := <Book>(X) && <label>(X, Y)
+<WrittenBy>(X,Y) :=  <Book>(X) && <AuthorOf>(Y, X)

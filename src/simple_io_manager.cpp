@@ -1,10 +1,11 @@
 #include "simple_io_manager.h"
 
-SimpleIOManager::SimpleIOManager(std::string const &stream_path,
-                                 std::string const &kb_path,
-                                 std::string const &output_path,
-                                 bool is_output_enabled)
-    : simple_reader(SimpleReader(stream_path)), trident_reader(kb_path),
+SimpleIOManager::SimpleIOManager(
+    std::string const &stream_path, std::string const &kb_path,
+    std::string const &output_path, bool is_output_enabled,
+    std::vector<std::string> const &predicate_vector)
+    : simple_reader(SimpleReader(stream_path)),
+      trident_reader(kb_path, predicate_vector),
       simple_writer(SimpleWriter(output_path)),
       is_output_enabled(is_output_enabled) {}
 
