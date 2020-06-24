@@ -13,7 +13,6 @@ TridentReader::read_background_data(ares::util::Timeline &timeline) {
     int64_t const KBVAR_O = -2;
     if (!path_kb.empty()) {
         KBConfig config;
-        std::cout << "kb path: " << path_kb.c_str() << std::endl;
         auto kb =
             std::make_unique<KB>(path_kb.c_str(), true, true, true, config);
         Querier *q = kb->query();
@@ -22,10 +21,6 @@ TridentReader::read_background_data(ares::util::Timeline &timeline) {
             int pred_len = predicate_string.size();
             char *predicate_key = const_cast<char *>(predicate_string.c_str());
             bool p_found = q->nodid(predicate_key, pred_len, &predicate_id);
-            std::cout << "predicate " << predicate_string
-                      << " found: " << p_found
-                      << "; size: " << pred_len
-                      << "; predicate_id: " << predicate_id << std::endl;
             if (p_found) {
                 EdgeItr *itr = q->edg_srd(KBVAR_S, predicate_id, KBVAR_O);
                 while (itr->hasNext()) {
@@ -41,14 +36,11 @@ TridentReader::read_background_data(ares::util::Timeline &timeline) {
                     bool obj_lbl_found = q->lbl_n(object_id, object, obj_len);
                     std::string subj_str(subject, subj_len);
                     std::string obj_str(object, obj_len);
-                    std::cout << predicate_string << "(" << subj_str << ", "
-                              << obj_str << ");  " << std::endl;
                     auto grounding = init_grounding(subj_str, predicate_string,
                                                     obj_str, timeline);
                     result.push_back(grounding);
                 }
             }
-            std::cout << std::endl;
         }
     }
     return result;
@@ -94,3 +86,14 @@ TridentReader::init_grounding(std::string subject, std::string predicate,
 //<< predicate_id << std::endl;
 //
 // std::cout << predicate_string << "(" << subject << ", " << object << ");  ";
+//
+//std::cout << "kb path: " << path_kb.c_str() << std::endl;
+//std::cout << std::endl;
+//
+//std::cout << "predicate " << predicate_string
+          //<< " found: " << p_found
+          //<< "; size: " << pred_len
+          //<< "; predicate_id: " << predicate_id << std::endl;
+          //
+//std::cout << predicate_string << "(" << subj_str << ", "
+          //<< obj_str << ");  " << std::endl;
