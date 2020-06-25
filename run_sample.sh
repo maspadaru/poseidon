@@ -8,8 +8,8 @@
 #./poseidon.sh r samples/simple.ares samples/simple.stream ../trident/data/simple output.txt
 #cat output.txt
 
-#./poseidon.sh r samples/book.ares samples/book.stream ../trident/data/book output.txt
-#cat output.txt
+./poseidon.sh r samples/book.ares samples/book.stream ../trident/data/book output.txt
+cat output.txt
 
 ./poseidon.sh r samples/rdfbook.ares samples/rdfbook.stream ../trident/data/rdfbook output.txt
 cat output.txt

@@ -1,4 +1,3 @@
-<no> <nothing> "none" .
 <SCO> <label> "book" .
 <MOS> <label> "book" .
 <Tanenbaum> <AuthorOf> <SCO> .
