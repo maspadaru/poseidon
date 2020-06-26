@@ -13,4 +13,5 @@ compile_commands.json
 Session.vim
 gmon.out
 prof_*.txt
+twitter/config.py
 
