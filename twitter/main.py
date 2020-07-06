@@ -1,42 +1,58 @@
-import re
+import sys
+import time
 
-import tweepy 
-from stanfordcorenlp import StanfordCoreNLP
-
-import config
+from twitter import TwitterApi
+from triple_extractor import TripleExtractor 
 
 
-class StreamListener(tweepy.StreamListener):
-    def __init__(self):
-        super(StreamListener, self).__init__()
-        self.nlp = StanfordCoreNLP('../../stanford-corenlp-4.0.0/', memory='8g')
-        self.regex_pattern = r'[^\x00-\x7F]+' 
-        self.nlp.ner("init")
+def handle_tweet(tweet, trpext):
+        # print(tweet)
+        # print("=== Cleaned ==== ")
+        clean_tweet = trpext.clean_text(tweet) 
+        # print(clean_tweet)
+        # print(" === Entities: ===")
+        # entities = trpext.extract_entities(clean_tweet)
+        # print(entities)
+        # print(" === Triples: ===")
+        triples = trpext.get_triples(clean_tweet)
+        for triple in triples:
+            # print('|-', triple)
+            ares_triple_frmt = "{1} {0} {2}".format(
+                    triple['subject'], triple['relation'], triple['object'])
+            readable_triple_frmt = "{0} :: {1} :: {2}".format(
+                    triple['subject'], triple['relation'], triple['object'])
+            # print(ares_triple_frmt)
+            print(readable_triple_frmt)
 
-    def on_status(self, status):
-        print("")
-        print("================== Tweet ================= ")
-        print("=== Original ==== ")
-        tweet = status.text
-        print(tweet)
-        print("=== Cleaned ==== ")
-        clean_tweet =  re.sub(self.regex_pattern, ' ', tweet)
-        print(clean_tweet)
-        print(" === Entities: ===")
-        entities = self.nlp.ner(clean_tweet)
-        print(entities)
+def get_twitter_input(trpext):
+    filter=["Amsterdam", "Stockholm", "Copenhagen", "Toronto"]
+    twitter_api = TwitterApi(filter)
+    while True: 
+        # print(" ")
+        # print("=== ============== START TIMEPOINT ==================== ==== ")
+        print(" ")
+        tweets = twitter_api.get_tweets()
+        for tweet in tweets:
+            handle_tweet(tweet, trpext)
+        time.sleep(1)
 
-    def on_error(self, status_code):
-        if status_code == 420:
-            return False
+def get_file_input(file_path, trpext):
+    f = open(file_path, "r")
+    while True: 
+        line = f.readline() 
+        if not line: 
+            break
+        handle_tweet(line, trpext)
+  
+    f.close()
 
 def main():
-    auth = tweepy.OAuthHandler(config.TWITTER_API_KEY, config.TWITTER_API_SECRET)
-    auth.set_access_token(config.TWITTER_ACCESS_TOKEN, config.TWITTER_ACCESS_SECRET)
-    api = tweepy.API(auth)
-    stream_listener = StreamListener()
-    stream = tweepy.Stream(auth=api.auth, listener=stream_listener)
-    stream.filter(track=["Amsterdam", "Stockholm", "Copenhagen", "Toronto"])
+    trpext = TripleExtractor()
+    if (len(sys.argv) == 1):
+        get_twitter_input(trpext)
+    else :
+        file_path =  sys.argv[1]
+        get_file_input(file_path, trpext)
 
         
 if __name__ == '__main__':
@@ -45,10 +61,3 @@ if __name__ == '__main__':
 
 
 
-# TODO:
-# 1. NLP extract Subject Predicate Object 
-#            -> Standford NLP has a parser that can do this somehow, I think
-# 2. Match <S, P, O> entities to wididata
-# 3. tweepy returns truncated tweets. Find a way to get the full tweet.
-# 4. Format RDF triples in Ares readable stream
-# 5. Write stream to named pipe from which Poseidon can read them.
