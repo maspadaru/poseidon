@@ -15,4 +15,6 @@ gmon.out
 prof_*.txt
 twitter/config.py
 *.pyc
+twitter/temp.out
+twitter/temp.qry
 
