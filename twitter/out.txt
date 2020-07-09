@@ -1,0 +1,1271 @@
+Starting server with command: java -Xmx8G -cp /home/mike/stanfordnlp_resources/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 60000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-1d11eba8534846ba.props -preload openie
+
+Copenhagen :: has :: Little Mermaid labelled
+Entity = Copenhagen :: Link =  <http://www.wikidata.org/entity/Q10314624> 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = Little Mermaid labelled :: NOT FOUND 
+
+Toronto s COVID-19 divide :: stretches beyond :: regional boundaries
+Entity = Toronto s COVID-19 divide :: NOT FOUND 
+Entity = stretches beyond :: NOT FOUND 
+Entity = regional boundaries :: NOT FOUND 
+
+Toronto s COVID-19 divide :: stretches beyond :: boundaries
+Entity = Toronto s COVID-19 divide :: NOT FOUND 
+Entity = stretches beyond :: NOT FOUND 
+Entity = boundaries :: NOT FOUND 
+
+Future :: is :: Now
+Entity = Future :: Link =  <http://www.wikidata.org/entity/Q3445057> 
+Entity = is :: NOT FOUND 
+Entity = Now :: Link =  <http://www.wikidata.org/entity/Q59273911> 
+
+Dagestani :: IS :: militant
+Entity = Dagestani :: NOT FOUND 
+Entity = IS :: NOT FOUND 
+Entity = militant :: NOT FOUND 
+
+@kiIImycth im :: going in :: amsterdam
+Entity = @kiIImycth im :: NOT FOUND 
+Entity = going in :: NOT FOUND 
+Entity = amsterdam :: NOT FOUND 
+
+accelerator Rockstart :: invests :: 1.1 M
+Entity = accelerator Rockstart :: NOT FOUND 
+Entity = invests :: NOT FOUND 
+Entity = 1.1 M :: NOT FOUND 
+
+Amsterdam-based accelerator Rockstart :: invests :: 1.1 M
+Entity = Amsterdam-based accelerator Rockstart :: NOT FOUND 
+Entity = invests :: NOT FOUND 
+Entity = 1.1 M :: NOT FOUND 
+
+May 6 1870 :: is in :: Copenhagen
+Entity = May 6 1870 :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Copenhagen :: Link =  <http://www.wikidata.org/entity/Q10314624> 
+
+atrocities :: done in :: Ugandans
+Entity = atrocities :: NOT FOUND 
+Entity = done in :: NOT FOUND 
+Entity = Ugandans :: NOT FOUND 
+
+@EUinUG :: financing :: atrocities
+Entity = @EUinUG :: NOT FOUND 
+Entity = financing :: NOT FOUND 
+Entity = atrocities :: NOT FOUND 
+
+atrocities :: done by :: dictator Museveni
+Entity = atrocities :: NOT FOUND 
+Entity = done by :: NOT FOUND 
+Entity = dictator Museveni :: NOT FOUND 
+
+@EUinUG :: financing :: atrocities done by dictator Museveni
+Entity = @EUinUG :: NOT FOUND 
+Entity = financing :: NOT FOUND 
+Entity = atrocities done by dictator Museveni :: NOT FOUND 
+
+@EUinUG :: financing :: atrocities done in Ugandans by dictator Museveni
+Entity = @EUinUG :: NOT FOUND 
+Entity = financing :: NOT FOUND 
+Entity = atrocities done in Ugandans by dictator Museveni :: NOT FOUND 
+
+@EUinUG :: financing :: atrocities done
+Entity = @EUinUG :: NOT FOUND 
+Entity = financing :: NOT FOUND 
+Entity = atrocities done :: NOT FOUND 
+
+@EUinUG :: financing :: atrocities done in Ugandans
+Entity = @EUinUG :: NOT FOUND 
+Entity = financing :: NOT FOUND 
+Entity = atrocities done in Ugandans :: NOT FOUND 
+
+It :: took :: 40 years of consistent planning
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = took :: NOT FOUND 
+Entity = 40 years of consistent planning :: NOT FOUND 
+
+It :: took :: 40 years of planning
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = took :: NOT FOUND 
+Entity = 40 years of planning :: NOT FOUND 
+
+It :: took :: 40 years
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = took :: NOT FOUND 
+Entity = 40 years :: NOT FOUND 
+
+It :: become :: cycling c
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = become :: NOT FOUND 
+Entity = cycling c :: NOT FOUND 
+
+Stockholm :: has :: beautiful subway stations
+Entity = Stockholm :: Link =  <http://www.wikidata.org/entity/Q1754> 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = beautiful subway stations :: NOT FOUND 
+
+Stockholm :: has :: subway stations
+Entity = Stockholm :: Link =  <http://www.wikidata.org/entity/Q1754> 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = subway stations :: NOT FOUND 
+
+Stockholm :: has :: most beautiful subway stations
+Entity = Stockholm :: Link =  <http://www.wikidata.org/entity/Q1754> 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = most beautiful subway stations :: NOT FOUND 
+
+boy cycling :: have :: have killed in days
+Entity = boy cycling :: NOT FOUND 
+Entity = have :: NOT FOUND 
+Entity = have killed in days :: NOT FOUND 
+
+boy cycling :: have :: have killed
+Entity = boy cycling :: NOT FOUND 
+Entity = have :: NOT FOUND 
+Entity = have killed :: NOT FOUND 
+
+three-year-old boy cycling :: have :: have killed
+Entity = three-year-old boy cycling :: NOT FOUND 
+Entity = have :: NOT FOUND 
+Entity = have killed :: NOT FOUND 
+
+boy cycling :: have :: have killed in recent days
+Entity = boy cycling :: NOT FOUND 
+Entity = have :: NOT FOUND 
+Entity = have killed in recent days :: NOT FOUND 
+
+three-year-old boy cycling :: have :: have killed in days
+Entity = three-year-old boy cycling :: NOT FOUND 
+Entity = have :: NOT FOUND 
+Entity = have killed in days :: NOT FOUND 
+
+three-year-old boy cycling :: have :: have killed in recent days
+Entity = three-year-old boy cycling :: NOT FOUND 
+Entity = have :: NOT FOUND 
+Entity = have killed in recent days :: NOT FOUND 
+
+RT @LesleyRiddoch :: killed in :: recent days
+Entity = RT @LesleyRiddoch :: NOT FOUND 
+Entity = killed in :: NOT FOUND 
+Entity = recent days :: NOT FOUND 
+
+Greatest Player :: is in :: Danish club
+Entity = Greatest Player :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Danish club :: NOT FOUND 
+
+Sibusiso Zuma :: is Greatest Player in :: club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Greatest Player in :: NOT FOUND 
+Entity = club :: NOT FOUND 
+
+Sibusiso Zuma :: is Player in :: Danish club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Player in :: NOT FOUND 
+Entity = Danish club :: NOT FOUND 
+
+Sibusiso Zuma :: is Greatest Player in :: Danish club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Greatest Player in :: NOT FOUND 
+Entity = Danish club :: NOT FOUND 
+
+FC Copenhagen :: has :: history
+Entity = FC Copenhagen :: NOT FOUND 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = history :: NOT FOUND 
+
+Sibusiso Zuma :: is Player in :: club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Player in :: NOT FOUND 
+Entity = club :: NOT FOUND 
+
+Greatest Player :: history 's :: FC Copenhagen
+Entity = Greatest Player :: NOT FOUND 
+Entity = history 's :: NOT FOUND 
+Entity = FC Copenhagen :: NOT FOUND 
+
+Sibusiso Zuma :: is :: Player
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = Player :: Link =  <http://www.wikidata.org/entity/Q378491> 
+
+Sibusiso Zuma :: is :: Greatest Player
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = Greatest Player :: NOT FOUND 
+
+club :: into :: Hall of Fa
+Entity = club :: NOT FOUND 
+Entity = into :: NOT FOUND 
+Entity = Hall of Fa :: NOT FOUND 
+
+He :: was voted into :: club 's Hall of Fa
+Entity = He :: Link =  <http://www.wikidata.org/entity/Q17215875> 
+Entity = was voted into :: NOT FOUND 
+Entity = club 's Hall of Fa :: NOT FOUND 
+
+He :: was :: voted
+Entity = He :: Link =  <http://www.wikidata.org/entity/Q17215875> 
+Entity = was :: NOT FOUND 
+Entity = voted :: NOT FOUND 
+
+He :: was voted into :: club 's Hall
+Entity = He :: Link =  <http://www.wikidata.org/entity/Q17215875> 
+Entity = was voted into :: NOT FOUND 
+Entity = club 's Hall :: NOT FOUND 
+
+pieces :: great for :: your needs
+Entity = pieces :: NOT FOUND 
+Entity = great for :: NOT FOUND 
+Entity = your needs :: NOT FOUND 
+
+unique pieces :: great for :: your needs
+Entity = unique pieces :: NOT FOUND 
+Entity = great for :: NOT FOUND 
+Entity = your needs :: NOT FOUND 
+
+pieces :: great for :: your #wholesale needs
+Entity = pieces :: NOT FOUND 
+Entity = great for :: NOT FOUND 
+Entity = your #wholesale needs :: NOT FOUND 
+
+unique pieces :: great for :: your #wholesale needs
+Entity = unique pieces :: NOT FOUND 
+Entity = great for :: NOT FOUND 
+Entity = your #wholesale needs :: NOT FOUND 
+
+niet minder dan stuitend :: wel in :: lijn der
+Entity = niet minder dan stuitend :: NOT FOUND 
+Entity = wel in :: NOT FOUND 
+Entity = lijn der :: NOT FOUND 
+
+maar wel :: is in :: lijn der
+Entity = maar wel :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = lijn der :: NOT FOUND 
+
+Het :: is :: niet minder dan stuitend
+Entity = Het :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = niet minder dan stuitend :: NOT FOUND 
+
+Het :: is :: minder dan stuitend
+Entity = Het :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = minder dan stuitend :: NOT FOUND 
+
+zoekt soort :: was :: het gezegde toch
+Entity = zoekt soort :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = het gezegde toch :: NOT FOUND 
+
+zoekt soort :: was :: gezegde toch
+Entity = zoekt soort :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = gezegde toch :: NOT FOUND 
+
+Soort zoekt soort :: was :: het gezegde toch
+Entity = Soort zoekt soort :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = het gezegde toch :: NOT FOUND 
+
+Soort zoekt soort :: was :: gezegde toch
+Entity = Soort zoekt soort :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = gezegde toch :: NOT FOUND 
+
+story :: is :: story
+Entity = story :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = story :: NOT FOUND 
+
+story :: is story of :: annihilation of peoples
+Entity = story :: NOT FOUND 
+Entity = is story of :: NOT FOUND 
+Entity = annihilation of peoples :: NOT FOUND 
+
+#ChristoIslam :: story of is :: story
+Entity = #ChristoIslam :: NOT FOUND 
+Entity = story of is :: NOT FOUND 
+Entity = story :: NOT FOUND 
+
+story :: is story of :: annihilation
+Entity = story :: NOT FOUND 
+Entity = is story of :: NOT FOUND 
+Entity = annihilation :: NOT FOUND 
+
+story :: is story of :: annihilation of native peoples
+Entity = story :: NOT FOUND 
+Entity = is story of :: NOT FOUND 
+Entity = annihilation of native peoples :: NOT FOUND 
+
+Wellicht dat #Amsterdam :: eens :: serieus kan nadenken
+Entity = Wellicht dat #Amsterdam :: NOT FOUND 
+Entity = eens :: NOT FOUND 
+Entity = serieus kan nadenken :: NOT FOUND 
+
+Wellicht dat #Amsterdam :: eens serieus kan nadenken over :: een kansenrijk museum
+Entity = Wellicht dat #Amsterdam :: NOT FOUND 
+Entity = eens serieus kan nadenken over :: NOT FOUND 
+Entity = een kansenrijk museum :: NOT FOUND 
+
+Wellicht dat #Amsterdam :: eens serieus kan nadenken over :: bijv
+Entity = Wellicht dat #Amsterdam :: NOT FOUND 
+Entity = eens serieus kan nadenken over :: NOT FOUND 
+Entity = bijv :: NOT FOUND 
+
+their experiences :: Cinemagoers in :: Tokyo
+Entity = their experiences :: NOT FOUND 
+Entity = Cinemagoers in :: NOT FOUND 
+Entity = Tokyo :: Link =  <http://www.wikidata.org/entity/Q1490> 
+
+Cinemagoers :: is in :: Tokyo
+Entity = Cinemagoers :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Tokyo :: Link =  <http://www.wikidata.org/entity/Q1490> 
+
+Cinemagoers :: discussed :: their experiences
+Entity = Cinemagoers :: NOT FOUND 
+Entity = discussed :: NOT FOUND 
+Entity = their experiences :: NOT FOUND 
+
+we :: are going at_time :: tonight
+Entity = we :: NOT FOUND 
+Entity = are going at_time :: NOT FOUND 
+Entity = tonight :: NOT FOUND 
+
+I :: am :: so excited
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = am :: NOT FOUND 
+Entity = so excited :: NOT FOUND 
+
+we :: are going :: watch
+Entity = we :: NOT FOUND 
+Entity = are going :: NOT FOUND 
+Entity = watch :: NOT FOUND 
+
+we :: are going :: watch together
+Entity = we :: NOT FOUND 
+Entity = are going :: NOT FOUND 
+Entity = watch together :: NOT FOUND 
+
+I :: am :: excited
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = am :: NOT FOUND 
+Entity = excited :: NOT FOUND 
+
+girl :: sneakily stole :: his popcorn https://t.co/Y3Y
+Entity = girl :: NOT FOUND 
+Entity = sneakily stole :: NOT FOUND 
+Entity = his popcorn https://t.co/Y3Y :: NOT FOUND 
+
+little girl :: sneakily stole :: his popcorn https://t.co/Y3Y
+Entity = little girl :: NOT FOUND 
+Entity = sneakily stole :: NOT FOUND 
+Entity = his popcorn https://t.co/Y3Y :: NOT FOUND 
+
+girl :: stole :: his popcorn https://t.co/Y3Y
+Entity = girl :: NOT FOUND 
+Entity = stole :: NOT FOUND 
+Entity = his popcorn https://t.co/Y3Y :: NOT FOUND 
+
+little girl :: stole :: his popcorn https://t.co/Y3Y
+Entity = little girl :: NOT FOUND 
+Entity = stole :: NOT FOUND 
+Entity = his popcorn https://t.co/Y3Y :: NOT FOUND 
+
+Street :: is in :: #Toronto
+Entity = Street :: Link =  <http://www.wikidata.org/entity/Q1249656> 
+Entity = is in :: NOT FOUND 
+Entity = #Toronto :: NOT FOUND 
+
+Applicant tracking systems :: look for :: keywords
+Entity = Applicant tracking systems :: NOT FOUND 
+Entity = look for :: NOT FOUND 
+Entity = keywords :: NOT FOUND 
+
+Applicant tracking systems :: look for :: specific keywords
+Entity = Applicant tracking systems :: NOT FOUND 
+Entity = look for :: NOT FOUND 
+Entity = specific keywords :: NOT FOUND 
+
+keywords :: get :: your resume
+Entity = keywords :: NOT FOUND 
+Entity = get :: NOT FOUND 
+Entity = your resume :: NOT FOUND 
+
+right keywords :: get :: your resume
+Entity = right keywords :: NOT FOUND 
+Entity = get :: NOT FOUND 
+Entity = your resume :: NOT FOUND 
+
+them :: win :: their f
+Entity = them :: NOT FOUND 
+Entity = win :: NOT FOUND 
+Entity = their f :: NOT FOUND 
+
+South African Legend :: goal in :: their win over rivals
+Entity = South African Legend :: NOT FOUND 
+Entity = goal in :: NOT FOUND 
+Entity = their win over rivals :: NOT FOUND 
+
+Sibusiso Zuma :: has :: goal for FC Copenhagen in win over rivals
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = goal for FC Copenhagen in win over rivals :: NOT FOUND 
+
+Sibusiso Zuma 's goal :: is in :: their win over rivals
+Entity = Sibusiso Zuma 's goal :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = their win over rivals :: NOT FOUND 
+
+South African Legend :: goal for :: FC Copenhagen
+Entity = South African Legend :: NOT FOUND 
+Entity = goal for :: NOT FOUND 
+Entity = FC Copenhagen :: NOT FOUND 
+
+#tech sector :: is in :: #Amsterdam
+Entity = #tech sector :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = #Amsterdam :: NOT FOUND 
+
+Everyone :: getting together :: their life
+Entity = Everyone :: NOT FOUND 
+Entity = getting together :: NOT FOUND 
+Entity = their life :: NOT FOUND 
+
+Everyone :: getting :: their life
+Entity = Everyone :: NOT FOUND 
+Entity = getting :: NOT FOUND 
+Entity = their life :: NOT FOUND 
+
+Everyone :: getting back together :: their life
+Entity = Everyone :: NOT FOUND 
+Entity = getting back together :: NOT FOUND 
+Entity = their life :: NOT FOUND 
+
+Mis alleen nog de lelylijn :: die :: doorgetrokken
+Entity = Mis alleen nog de lelylijn :: NOT FOUND 
+Entity = die :: NOT FOUND 
+Entity = doorgetrokken :: NOT FOUND 
+
+Mis alleen nog de lelylijn :: is in :: dit plaatje
+Entity = Mis alleen nog de lelylijn :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = dit plaatje :: NOT FOUND 
+
+Mis alleen nog lelylijn :: die :: doorgetrokken
+Entity = Mis alleen nog lelylijn :: NOT FOUND 
+Entity = die :: NOT FOUND 
+Entity = doorgetrokken :: NOT FOUND 
+
+I :: was :: supposed
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = was :: NOT FOUND 
+Entity = supposed :: NOT FOUND 
+
+Dit :: lost en :: hoop problemen op
+Entity = Dit :: NOT FOUND 
+Entity = lost en :: NOT FOUND 
+Entity = hoop problemen op :: NOT FOUND 
+
+wacht :: even lost en :: hele hoop problemen op
+Entity = wacht :: NOT FOUND 
+Entity = even lost en :: NOT FOUND 
+Entity = hele hoop problemen op :: NOT FOUND 
+
+Dit :: even lost en :: hele hoop problemen op
+Entity = Dit :: NOT FOUND 
+Entity = even lost en :: NOT FOUND 
+Entity = hele hoop problemen op :: NOT FOUND 
+
+wacht :: lost en :: hoop problemen op
+Entity = wacht :: NOT FOUND 
+Entity = lost en :: NOT FOUND 
+Entity = hoop problemen op :: NOT FOUND 
+
+Dit :: even lost en :: hoop problemen op
+Entity = Dit :: NOT FOUND 
+Entity = even lost en :: NOT FOUND 
+Entity = hoop problemen op :: NOT FOUND 
+
+wacht :: lost en :: hele hoop problemen op
+Entity = wacht :: NOT FOUND 
+Entity = lost en :: NOT FOUND 
+Entity = hele hoop problemen op :: NOT FOUND 
+
+Dit :: lost en :: hele hoop problemen op
+Entity = Dit :: NOT FOUND 
+Entity = lost en :: NOT FOUND 
+Entity = hele hoop problemen op :: NOT FOUND 
+
+wacht :: even lost en :: hoop problemen op
+Entity = wacht :: NOT FOUND 
+Entity = even lost en :: NOT FOUND 
+Entity = hoop problemen op :: NOT FOUND 
+
+Greatest Player :: is in :: Danish club
+Entity = Greatest Player :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Danish club :: NOT FOUND 
+
+Sibusiso Zuma :: is Greatest Player in :: club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Greatest Player in :: NOT FOUND 
+Entity = club :: NOT FOUND 
+
+Sibusiso Zuma :: is Player in :: Danish club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Player in :: NOT FOUND 
+Entity = Danish club :: NOT FOUND 
+
+Sibusiso Zuma :: is Greatest Player in :: Danish club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Greatest Player in :: NOT FOUND 
+Entity = Danish club :: NOT FOUND 
+
+FC Copenhagen :: has :: history
+Entity = FC Copenhagen :: NOT FOUND 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = history :: NOT FOUND 
+
+Sibusiso Zuma :: is Player in :: club
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is Player in :: NOT FOUND 
+Entity = club :: NOT FOUND 
+
+Greatest Player :: history 's :: FC Copenhagen
+Entity = Greatest Player :: NOT FOUND 
+Entity = history 's :: NOT FOUND 
+Entity = FC Copenhagen :: NOT FOUND 
+
+Sibusiso Zuma :: is :: Player
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = Player :: Link =  <http://www.wikidata.org/entity/Q378491> 
+
+Sibusiso Zuma :: is :: Greatest Player
+Entity = Sibusiso Zuma :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = Greatest Player :: NOT FOUND 
+
+club :: into :: Hall of Fa
+Entity = club :: NOT FOUND 
+Entity = into :: NOT FOUND 
+Entity = Hall of Fa :: NOT FOUND 
+
+He :: was voted into :: club 's Hall of Fa
+Entity = He :: Link =  <http://www.wikidata.org/entity/Q17215875> 
+Entity = was voted into :: NOT FOUND 
+Entity = club 's Hall of Fa :: NOT FOUND 
+
+He :: was :: voted
+Entity = He :: Link =  <http://www.wikidata.org/entity/Q17215875> 
+Entity = was :: NOT FOUND 
+Entity = voted :: NOT FOUND 
+
+He :: was voted into :: club 's Hall
+Entity = He :: Link =  <http://www.wikidata.org/entity/Q17215875> 
+Entity = was voted into :: NOT FOUND 
+Entity = club 's Hall :: NOT FOUND 
+
+I :: be in :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = be in :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+I :: just want :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = just want :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+I :: want :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = want :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+Amsterdam 's light district :: reopens after :: coronavirus shutdown
+Entity = Amsterdam 's light district :: NOT FOUND 
+Entity = reopens after :: NOT FOUND 
+Entity = coronavirus shutdown :: NOT FOUND 
+
+Amsterdam :: has :: red light district
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = red light district :: NOT FOUND 
+
+Amsterdam 's red light district :: reopens after :: coronavirus shutdown
+Entity = Amsterdam 's red light district :: NOT FOUND 
+Entity = reopens after :: NOT FOUND 
+Entity = coronavirus shutdown :: NOT FOUND 
+
+Verwarde man :: met :: honger
+Entity = Verwarde man :: NOT FOUND 
+Entity = met :: NOT FOUND 
+Entity = honger :: NOT FOUND 
+
+volgens :: alle :: linkse dueugers
+Entity = volgens :: NOT FOUND 
+Entity = alle :: NOT FOUND 
+Entity = linkse dueugers :: NOT FOUND 
+
+volgens :: alle :: dueugers
+Entity = volgens :: NOT FOUND 
+Entity = alle :: NOT FOUND 
+Entity = dueugers :: NOT FOUND 
+
+June :: was :: warmest ever recorded
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = was :: NOT FOUND 
+Entity = warmest ever recorded :: NOT FOUND 
+
+June :: is in :: Stockholm
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = is in :: NOT FOUND 
+Entity = Stockholm :: Link =  <http://www.wikidata.org/entity/Q1754> 
+
+June :: was :: warmest recorded
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = was :: NOT FOUND 
+Entity = warmest recorded :: NOT FOUND 
+
+June :: ever recorded :: measurements began
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = ever recorded :: NOT FOUND 
+Entity = measurements began :: NOT FOUND 
+
+measurements :: began in :: 1756
+Entity = measurements :: NOT FOUND 
+Entity = began in :: NOT FOUND 
+Entity = 1756 :: NOT FOUND 
+
+June :: ever recorded :: measurements began in 1756
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = ever recorded :: NOT FOUND 
+Entity = measurements began in 1756 :: NOT FOUND 
+
+June :: recorded :: measurements began in 1756
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = recorded :: NOT FOUND 
+Entity = measurements began in 1756 :: NOT FOUND 
+
+June :: recorded :: measurements began
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = recorded :: NOT FOUND 
+Entity = measurements began :: NOT FOUND 
+
+June :: was :: warmest
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = was :: NOT FOUND 
+Entity = warmest :: NOT FOUND 
+
+record :: was from :: year
+Entity = record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = year :: NOT FOUND 
+
+old record :: was from :: year
+Entity = old record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = year :: NOT FOUND 
+
+old record :: was from :: last year
+Entity = old record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = last year :: NOT FOUND 
+
+record :: was from :: last year
+Entity = record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = last year :: NOT FOUND 
+
+RT @BackOnTrackBE :: is In :: Oostenrijk vervangen 31 treinen
+Entity = RT @BackOnTrackBE :: NOT FOUND 
+Entity = is In :: NOT FOUND 
+Entity = Oostenrijk vervangen 31 treinen :: NOT FOUND 
+
+record :: was at :: #Toronto YYZ
+Entity = record :: NOT FOUND 
+Entity = was at :: NOT FOUND 
+Entity = #Toronto YYZ :: NOT FOUND 
+
+Toronto Billy Bishop YTZ :: broke :: record
+Entity = Toronto Billy Bishop YTZ :: NOT FOUND 
+Entity = broke :: NOT FOUND 
+Entity = record :: NOT FOUND 
+
+Toronto Billy Bishop YTZ :: also broke :: record
+Entity = Toronto Billy Bishop YTZ :: NOT FOUND 
+Entity = also broke :: NOT FOUND 
+Entity = record :: NOT FOUND 
+
+It :: was :: 34.5 C July 2
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = was :: NOT FOUND 
+Entity = 34.5 C July 2 :: NOT FOUND 
+
+It :: was :: 34.5 C
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = was :: NOT FOUND 
+Entity = 34.5 C :: NOT FOUND 
+
+#Canadianlaws :: are :: liberal
+Entity = #Canadianlaws :: NOT FOUND 
+Entity = are :: NOT FOUND 
+Entity = liberal :: NOT FOUND 
+
+#Realestate #investment :: is #profitableinvestment :: liberal
+Entity = #Realestate #investment :: NOT FOUND 
+Entity = is #profitableinvestment :: NOT FOUND 
+Entity = liberal :: NOT FOUND 
+
+#Realestate #investment :: is in :: #Canada
+Entity = #Realestate #investment :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = #Canada :: NOT FOUND 
+
+it :: owning :: estate
+Entity = it :: NOT FOUND 
+Entity = owning :: NOT FOUND 
+Entity = estate :: NOT FOUND 
+
+#Realestate #investment :: is :: #profitableinvestment
+Entity = #Realestate #investment :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = #profitableinvestment :: NOT FOUND 
+
+#Canadianlaws :: are :: quite liberal
+Entity = #Canadianlaws :: NOT FOUND 
+Entity = are :: NOT FOUND 
+Entity = quite liberal :: NOT FOUND 
+
+#Realestate #investment :: is #profitableinvestment :: quite liberal
+Entity = #Realestate #investment :: NOT FOUND 
+Entity = is #profitableinvestment :: NOT FOUND 
+Entity = quite liberal :: NOT FOUND 
+
+it :: owning :: real estate
+Entity = it :: NOT FOUND 
+Entity = owning :: NOT FOUND 
+Entity = real estate :: NOT FOUND 
+
+real estate investment :: is in :: Canada
+Entity = real estate investment :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Canada :: Link =  <http://www.wikidata.org/entity/Q16> 
+
+afgeprijsde huizen :: is in :: Amsterdam
+Entity = afgeprijsde huizen :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+Amsterdam :: in huizen is :: van Funda
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+Entity = in huizen is :: NOT FOUND 
+Entity = van Funda :: NOT FOUND 
+
+We :: re :: looking
+Entity = We :: Link =  <http://www.wikidata.org/entity/Q1115577> 
+Entity = re :: NOT FOUND 
+Entity = looking :: NOT FOUND 
+
+I :: GOT SOUNDCHECK FOR :: AMSTERDAM IM SO HAPPY
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = GOT SOUNDCHECK FOR :: NOT FOUND 
+Entity = AMSTERDAM IM SO HAPPY :: NOT FOUND 
+
+I :: GOT :: SOUNDCHECK
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = GOT :: NOT FOUND 
+Entity = SOUNDCHECK :: NOT FOUND 
+
+it :: = :: Stockholm syndrome
+Entity = it :: NOT FOUND 
+Entity = = :: NOT FOUND 
+Entity = Stockholm syndrome :: NOT FOUND 
+
+@sandall7k @marvinabraham @MfanV @Football__Tweet :: Hoping :: Arsenal
+Entity = @sandall7k @marvinabraham @MfanV @Football__Tweet :: NOT FOUND 
+Entity = Hoping :: NOT FOUND 
+Entity = Arsenal :: Link =  <http://www.wikidata.org/entity/Q12079155> 
+
+That :: has :: lost
+Entity = That :: NOT FOUND 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = lost :: NOT FOUND 
+
+@WillyWoollyman That :: 's weekend in :: hotel in Amsterdam
+Entity = @WillyWoollyman That :: NOT FOUND 
+Entity = 's weekend in :: NOT FOUND 
+Entity = hotel in Amsterdam :: NOT FOUND 
+
+@WillyWoollyman That :: 's lost weekend in :: hotel in Amsterdam
+Entity = @WillyWoollyman That :: NOT FOUND 
+Entity = 's lost weekend in :: NOT FOUND 
+Entity = hotel in Amsterdam :: NOT FOUND 
+
+hotel :: is in :: Amsterdam
+Entity = hotel :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+@WillyWoollyman That :: has :: lost weekend
+Entity = @WillyWoollyman That :: NOT FOUND 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = lost weekend :: NOT FOUND 
+
+@WillyWoollyman That :: 's lost weekend in :: hotel
+Entity = @WillyWoollyman That :: NOT FOUND 
+Entity = 's lost weekend in :: NOT FOUND 
+Entity = hotel :: NOT FOUND 
+
+@WillyWoollyman That :: 's weekend in :: hotel
+Entity = @WillyWoollyman That :: NOT FOUND 
+Entity = 's weekend in :: NOT FOUND 
+Entity = hotel :: NOT FOUND 
+
+lost weekend :: is in :: hotel
+Entity = lost weekend :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = hotel :: NOT FOUND 
+
+@WillyWoollyman That :: has :: weekend
+Entity = @WillyWoollyman That :: NOT FOUND 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = weekend :: NOT FOUND 
+
+Bayern :: hit For :: Germany
+Entity = Bayern :: NOT FOUND 
+Entity = hit For :: NOT FOUND 
+Entity = Germany :: Link =  <http://www.wikidata.org/entity/Q183> 
+
+Bayern :: locally hit For :: Germany
+Entity = Bayern :: NOT FOUND 
+Entity = locally hit For :: NOT FOUND 
+Entity = Germany :: Link =  <http://www.wikidata.org/entity/Q183> 
+
+Bayern :: locally hardest hit For :: Germany
+Entity = Bayern :: NOT FOUND 
+Entity = locally hardest hit For :: NOT FOUND 
+Entity = Germany :: Link =  <http://www.wikidata.org/entity/Q183> 
+
+Bayern :: hardest hit For :: Germany
+Entity = Bayern :: NOT FOUND 
+Entity = hardest hit For :: NOT FOUND 
+Entity = Germany :: Link =  <http://www.wikidata.org/entity/Q183> 
+
+Portrait :: is with :: iPhone 6
+Entity = Portrait :: NOT FOUND 
+Entity = is with :: NOT FOUND 
+Entity = iPhone 6 :: Link =  <http://www.wikidata.org/entity/Q18010890> 
+
+Portrait :: is in :: her studio
+Entity = Portrait :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = her studio :: NOT FOUND 
+
+anyone :: Is doing :: meetups
+Entity = anyone :: NOT FOUND 
+Entity = Is doing :: NOT FOUND 
+Entity = meetups :: NOT FOUND 
+
+va mes :: rues :: JE VAIS CANER
+Entity = va mes :: NOT FOUND 
+Entity = rues :: NOT FOUND 
+Entity = JE VAIS CANER :: NOT FOUND 
+
+genre y :: comment en :: un il
+Entity = genre y :: NOT FOUND 
+Entity = comment en :: NOT FOUND 
+Entity = un il :: NOT FOUND 
+
+fait :: comment en :: un il
+Entity = fait :: NOT FOUND 
+Entity = comment en :: NOT FOUND 
+Entity = un il :: NOT FOUND 
+
+Elektrisch de brandjes blussen :: is in :: Amsterdam https://t.co/3jp9bx7QXs
+Entity = Elektrisch de brandjes blussen :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Amsterdam https://t.co/3jp9bx7QXs :: NOT FOUND 
+
+June :: was :: warmest ever recorded
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = was :: NOT FOUND 
+Entity = warmest ever recorded :: NOT FOUND 
+
+June :: is in :: Stockholm
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = is in :: NOT FOUND 
+Entity = Stockholm :: Link =  <http://www.wikidata.org/entity/Q1754> 
+
+June :: was :: warmest recorded
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = was :: NOT FOUND 
+Entity = warmest recorded :: NOT FOUND 
+
+June :: ever recorded :: measurements began
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = ever recorded :: NOT FOUND 
+Entity = measurements began :: NOT FOUND 
+
+measurements :: began in :: 1756
+Entity = measurements :: NOT FOUND 
+Entity = began in :: NOT FOUND 
+Entity = 1756 :: NOT FOUND 
+
+June :: ever recorded :: measurements began in 1756
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = ever recorded :: NOT FOUND 
+Entity = measurements began in 1756 :: NOT FOUND 
+
+June :: recorded :: measurements began in 1756
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = recorded :: NOT FOUND 
+Entity = measurements began in 1756 :: NOT FOUND 
+
+June :: recorded :: measurements began
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = recorded :: NOT FOUND 
+Entity = measurements began :: NOT FOUND 
+
+June :: was :: warmest
+Entity = June :: Link =  <http://www.wikidata.org/entity/Q6311954> 
+Entity = was :: NOT FOUND 
+Entity = warmest :: NOT FOUND 
+
+record :: was from :: year
+Entity = record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = year :: NOT FOUND 
+
+old record :: was from :: year
+Entity = old record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = year :: NOT FOUND 
+
+old record :: was from :: last year
+Entity = old record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = last year :: NOT FOUND 
+
+record :: was from :: last year
+Entity = record :: NOT FOUND 
+Entity = was from :: NOT FOUND 
+Entity = last year :: NOT FOUND 
+
+Copenhagen s racist fish Little Mermaid statue :: vandalised :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s racist fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+Copenhagen s fish Mermaid statue :: vandalised :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s fish Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+Copenhagen s racist fish Mermaid statue :: vandalised :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s racist fish Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+Copenhagen s fish Mermaid statue :: vandalised again :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s fish Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+Copenhagen s racist fish Mermaid statue :: vandalised again :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s racist fish Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+Copenhagen s racist fish Little Mermaid statue :: vandalised again :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s racist fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+Copenhagen s fish Little Mermaid statue :: vandalised :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+Copenhagen s fish Little Mermaid statue :: vandalised again :: https://t.co/RxIngGLi9O
+Entity = Copenhagen s fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RxIngGLi9O :: NOT FOUND 
+
+https://t.co/VUZU4jxA1y intussen :: is in :: Oostenrijk
+Entity = https://t.co/VUZU4jxA1y intussen :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = Oostenrijk :: NOT FOUND 
+
+Copenhagen s fish Little Mermaid statue :: vandalised again :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+Copenhagen s racist fish Little Mermaid statue :: vandalised :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s racist fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+Copenhagen s fish Mermaid statue :: vandalised again :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s fish Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+Copenhagen s racist fish Mermaid statue :: vandalised again :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s racist fish Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+Copenhagen s racist fish Little Mermaid statue :: vandalised again :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s racist fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised again :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+Copenhagen s fish Mermaid statue :: vandalised :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s fish Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+Copenhagen s racist fish Mermaid statue :: vandalised :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s racist fish Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+Copenhagen s fish Little Mermaid statue :: vandalised :: https://t.co/RE4dZxK1cD
+Entity = Copenhagen s fish Little Mermaid statue :: NOT FOUND 
+Entity = vandalised :: NOT FOUND 
+Entity = https://t.co/RE4dZxK1cD :: NOT FOUND 
+
+va mes :: rues :: JE VAIS CANER
+Entity = va mes :: NOT FOUND 
+Entity = rues :: NOT FOUND 
+Entity = JE VAIS CANER :: NOT FOUND 
+
+genre y :: comment en :: un il
+Entity = genre y :: NOT FOUND 
+Entity = comment en :: NOT FOUND 
+Entity = un il :: NOT FOUND 
+
+fait :: comment en :: un il
+Entity = fait :: NOT FOUND 
+Entity = comment en :: NOT FOUND 
+Entity = un il :: NOT FOUND 
+
+MV :: was filmed in :: toronto
+Entity = MV :: NOT FOUND 
+Entity = was filmed in :: NOT FOUND 
+Entity = toronto :: NOT FOUND 
+
+MV :: was :: filmed
+Entity = MV :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = filmed :: NOT FOUND 
+
+whole timeline :: was :: how excited
+Entity = whole timeline :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = how excited :: NOT FOUND 
+
+whole timeline :: was :: how excited about pictures
+Entity = whole timeline :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = how excited about pictures :: NOT FOUND 
+
+timeline :: was :: how excited
+Entity = timeline :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = how excited :: NOT FOUND 
+
+timeline :: was :: excited
+Entity = timeline :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = excited :: NOT FOUND 
+
+whole timeline :: was :: excited
+Entity = whole timeline :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = excited :: NOT FOUND 
+
+we :: had :: hunch mr jiwoo https://t.co/ecj8vF7KjQ
+Entity = we :: NOT FOUND 
+Entity = had :: NOT FOUND 
+Entity = hunch mr jiwoo https://t.co/ecj8vF7KjQ :: NOT FOUND 
+
+timeline :: was :: how excited about pictures
+Entity = timeline :: NOT FOUND 
+Entity = was :: NOT FOUND 
+Entity = how excited about pictures :: NOT FOUND 
+
+timeline :: was excited about :: pictures
+Entity = timeline :: NOT FOUND 
+Entity = was excited about :: NOT FOUND 
+Entity = pictures :: NOT FOUND 
+
+whole timeline :: was excited about :: pictures
+Entity = whole timeline :: NOT FOUND 
+Entity = was excited about :: NOT FOUND 
+Entity = pictures :: NOT FOUND 
+
+story :: is :: story
+Entity = story :: NOT FOUND 
+Entity = is :: NOT FOUND 
+Entity = story :: NOT FOUND 
+
+story :: is story of :: annihilation of peoples
+Entity = story :: NOT FOUND 
+Entity = is story of :: NOT FOUND 
+Entity = annihilation of peoples :: NOT FOUND 
+
+#ChristoIslam :: story of is :: story
+Entity = #ChristoIslam :: NOT FOUND 
+Entity = story of is :: NOT FOUND 
+Entity = story :: NOT FOUND 
+
+story :: is story of :: annihilation
+Entity = story :: NOT FOUND 
+Entity = is story of :: NOT FOUND 
+Entity = annihilation :: NOT FOUND 
+
+story :: is story of :: annihilation of native peoples
+Entity = story :: NOT FOUND 
+Entity = is story of :: NOT FOUND 
+Entity = annihilation of native peoples :: NOT FOUND 
+
+RT @TSNBobMcKenzie :: is With :: Edmonton chosen as two NHL Hub cities
+Entity = RT @TSNBobMcKenzie :: NOT FOUND 
+Entity = is With :: NOT FOUND 
+Entity = Edmonton chosen as two NHL Hub cities :: NOT FOUND 
+
+va mes :: rues :: JE VAIS CANER
+Entity = va mes :: NOT FOUND 
+Entity = rues :: NOT FOUND 
+Entity = JE VAIS CANER :: NOT FOUND 
+
+genre y :: comment en :: un il
+Entity = genre y :: NOT FOUND 
+Entity = comment en :: NOT FOUND 
+Entity = un il :: NOT FOUND 
+
+fait :: comment en :: un il
+Entity = fait :: NOT FOUND 
+Entity = comment en :: NOT FOUND 
+Entity = un il :: NOT FOUND 
+
+PARTYNEXTDOOR :: ago released :: Break
+Entity = PARTYNEXTDOOR :: Link =  <http://www.wikidata.org/entity/Q15929398> 
+Entity = ago released :: NOT FOUND 
+Entity = Break :: NOT FOUND 
+
+PARTYNEXTDOOR :: released :: Break
+Entity = PARTYNEXTDOOR :: Link =  <http://www.wikidata.org/entity/Q15929398> 
+Entity = released :: NOT FOUND 
+Entity = Break :: NOT FOUND 
+
+PARTYNEXTDOOR :: released :: Break From Toronto https://t.co/mOR23Im37h
+Entity = PARTYNEXTDOOR :: Link =  <http://www.wikidata.org/entity/Q15929398> 
+Entity = released :: NOT FOUND 
+Entity = Break From Toronto https://t.co/mOR23Im37h :: NOT FOUND 
+
+PARTYNEXTDOOR :: ago released :: Break From Toronto https://t.co/mOR23Im37h
+Entity = PARTYNEXTDOOR :: Link =  <http://www.wikidata.org/entity/Q15929398> 
+Entity = ago released :: NOT FOUND 
+Entity = Break From Toronto https://t.co/mOR23Im37h :: NOT FOUND 
+
+PARTYNEXTDOOR :: Break From :: Toronto https://t.co/mOR23Im37h
+Entity = PARTYNEXTDOOR :: Link =  <http://www.wikidata.org/entity/Q15929398> 
+Entity = Break From :: NOT FOUND 
+Entity = Toronto https://t.co/mOR23Im37h :: NOT FOUND 
+
+180703 EYES :: is IN :: TORONTO
+Entity = 180703 EYES :: NOT FOUND 
+Entity = is IN :: NOT FOUND 
+Entity = TORONTO :: NOT FOUND 
+
+190703 KEEP SPINNING :: is IN :: DALLAS
+Entity = 190703 KEEP SPINNING :: NOT FOUND 
+Entity = is IN :: NOT FOUND 
+Entity = DALLAS :: NOT FOUND 
+
+mag :: die :: mw
+Entity = mag :: NOT FOUND 
+Entity = die :: NOT FOUND 
+Entity = mw :: NOT FOUND 
+
+NIET 3 huizen hebben :: is in :: bv
+Entity = NIET 3 huizen hebben :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = bv :: NOT FOUND 
+
+Een 35-jarige man heeft vannacht bij een Febo :: is in :: het centrum van Amsterdam voor de nodige consternatie gezorgd
+Entity = Een 35-jarige man heeft vannacht bij een Febo :: NOT FOUND 
+Entity = is in :: NOT FOUND 
+Entity = het centrum van Amsterdam voor de nodige consternatie gezorgd :: NOT FOUND 
+
+I :: be in :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = be in :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+I :: just want :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = just want :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+I :: want :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = want :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+i :: feel like :: most of europe
+Entity = i :: Link =  <http://www.wikidata.org/entity/Q1943651> 
+Entity = feel like :: NOT FOUND 
+Entity = most of europe :: NOT FOUND 
+
+i :: feel like :: most
+Entity = i :: Link =  <http://www.wikidata.org/entity/Q1943651> 
+Entity = feel like :: NOT FOUND 
+Entity = most :: Link =  <http://www.wikidata.org/entity/Q6916728> 
+
+i :: love here :: it
+Entity = i :: Link =  <http://www.wikidata.org/entity/Q1943651> 
+Entity = love here :: NOT FOUND 
+Entity = it :: NOT FOUND 
+
+i :: love :: it
+Entity = i :: Link =  <http://www.wikidata.org/entity/Q1943651> 
+Entity = love :: NOT FOUND 
+Entity = it :: NOT FOUND 
+
+I :: be in :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = be in :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+I :: just want :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = just want :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+I :: want :: Amsterdam
+Entity = I :: Link =  <http://www.wikidata.org/entity/Q10299520> 
+Entity = want :: NOT FOUND 
+Entity = Amsterdam :: Link =  <http://www.wikidata.org/entity/Q4748822> 
+
+@Juju_Magik :: look up :: it
+Entity = @Juju_Magik :: NOT FOUND 
+Entity = look up :: NOT FOUND 
+Entity = it :: NOT FOUND 
+
+It :: 's called :: Stockholm syndrome sis
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = 's called :: NOT FOUND 
+Entity = Stockholm syndrome sis :: NOT FOUND 
+
+It :: has :: called
+Entity = It :: Link =  <http://www.wikidata.org/entity/Q25136484> 
+Entity = has :: Link =  <http://www.wikidata.org/entity/Q95955449> 
+Entity = called :: NOT FOUND 

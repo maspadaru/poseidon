@@ -29,17 +29,13 @@ def query(entity):
     query_file = open(QUERY_FILE, "w+")
     query_file.write(query_string)
     query_file.close()
-    print(BASH_COMMAND)
     process = subprocess.Popen(BASH_COMMAND.split(), stdout=subprocess.PIPE, 
             stderr=subprocess.DEVNULL)
     output, error = process.communicate()
     output = output.decode("utf-8").strip()
-    print("output = $", output , "$")
-    # os.remove(QUERY_FILE)
     if (len(output) > 0 and output != TRIDENT_EMPTY_RESULT
             and output != TRIDENT_KNOWN_EMPTY):
-        # print ("TRUE")
+        # print("Entity = {0} :: Link =  {1} ".format(entity, output))
         return (True, output)
-    # print ("FALSE")
-    # print ("RESULT NOT FOUND!")
-    return (False, "")
+    # print("Entity = {0} :: NOT FOUND ".format(entity))
+    return (False, entity)

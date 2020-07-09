@@ -11,15 +11,17 @@
 
 #include <util/read_exception.h>
 #include <util/format_exception.h>
+#include <util/timeline.h>
 
 
 class SimpleReader {
 private:
     bool has_source = false;
-    uint64_t start_time;
-    uint64_t end_time;
-    bool has_metadata_m = false;
+    uint64_t start_time = 0;
+    uint64_t end_time = ares::util::Timeline::INFINITE_TIME;
+    bool has_metadata_m = true;
     std::ifstream source;
+
 
 public:
     SimpleReader(std::string const &stream_path);

@@ -11,13 +11,13 @@ bool SimpleReader::has_metadata() const {
 }
 
 bool SimpleReader::fetch_metadata() {
-    if (!has_metadata_m) {
-        std::string nothing;
-        source >> start_time;
-        source >> end_time;
-        std::getline(source, nothing, '\n');
-        has_metadata_m = true;
-    }
+    //if (!has_metadata_m) {
+        //std::string nothing;
+        //source >> start_time;
+        //source >> end_time;
+        //std::getline(source, nothing, '\n');
+        //has_metadata_m = true;
+    //}
     return has_metadata_m;
 }
 
