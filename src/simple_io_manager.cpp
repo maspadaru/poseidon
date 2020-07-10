@@ -44,5 +44,10 @@ void SimpleIOManager::write_output_data(
         latest_output =
             simple_writer.format_output(time, std::move(output_vector));
         simple_writer.write_output(latest_output);
+    } else {
+        latest_output = "";
+        latest_output =
+            simple_writer.format_output(time, std::move(output_vector));
+        std::cout << latest_output << std::endl;
     }
 }

@@ -9,23 +9,20 @@
 #include <utility>
 #include <vector>
 
-#include <util/read_exception.h>
 #include <util/format_exception.h>
+#include <util/read_exception.h>
 #include <util/timeline.h>
 
-
 class SimpleReader {
-private:
+  private:
+    std::string stream_path;
     bool has_source = false;
     uint64_t start_time = 0;
     uint64_t end_time = ares::util::Timeline::INFINITE_TIME;
     bool has_metadata_m = true;
-    std::ifstream source;
 
-
-public:
+  public:
     SimpleReader(std::string const &stream_path);
-    ~SimpleReader();
 
     bool has_metadata() const;
 
@@ -37,10 +34,7 @@ public:
 
     std::vector<std::string> read_all_data();
 
-    std::vector<std::string>
-    read_next_data(uint64_t request_time_point);
-
+    std::vector<std::string> read_next_data(uint64_t request_time_point);
 };
-
 
 #endif // SIMPLEAPP_SIMPLE_READER_H

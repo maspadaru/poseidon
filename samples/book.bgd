@@ -1,4 +1,0 @@
-<SCO> <label> "book" .
-<MOS> <label> "book" .
-<Tanenbaum> <AuthorOf> <SCO> .
-<Bos> <AuthorOf> <MOS> .

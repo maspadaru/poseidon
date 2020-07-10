@@ -41,7 +41,7 @@ def get_twitter_input(trpext):
             fifo.write("\n") # printing empty line after each time-point
         finally:
             fifo.close() # writes are buffered, closing will flush
-        time.sleep(1)
+        time.sleep(60)
 
 
 def get_file_input(file_path, trpext):
@@ -60,9 +60,8 @@ def get_file_input(file_path, trpext):
 
 def main():
     trpext = TripleExtractor()
-    if (os.path.exists(FIFO_PATH)):
-        os.remove(FIFO_PATH)
-    os.mkfifo(FIFO_PATH)
+    if (not os.path.exists(FIFO_PATH)):
+        os.mkfifo(FIFO_PATH)
     if (len(sys.argv) == 1):
         get_twitter_input(trpext)
     else :

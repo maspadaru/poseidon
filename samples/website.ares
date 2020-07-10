@@ -1,0 +1,8 @@
+Found_Q95955449_x(X, Z) := <http://www.wikidata.org/entity/Q95955449>(X, Y) && <http://www.wikidata.org/prop/direct/P856>(X,Z)
+Found_Q95955449_y(Y, Z) := <http://www.wikidata.org/entity/Q95955449>(X, Y) && <http://www.wikidata.org/prop/direct/P856>(Y,Z)
+Found_is_x(X, Z) := is(X, Y) && <http://www.wikidata.org/prop/direct/P856>(X,Z)
+Found_is_y(Y, Z) := is(X, Y) && <http://www.wikidata.org/prop/direct/P856>(Y,Z)
+Found_took_x(X, Z) := took(X, Y) && <http://www.wikidata.org/prop/direct/P856>(X,Z)
+Found_took_y(Y, Z) := took(X, Y) && <http://www.wikidata.org/prop/direct/P856>(Y,Z)
+Found_was_x(X, Z) := was(X, Y) && <http://www.wikidata.org/prop/direct/P856>(X,Z)
+Found_was_y(Y, Z) := was(X, Y) && <http://www.wikidata.org/prop/direct/P856>(Y,Z)

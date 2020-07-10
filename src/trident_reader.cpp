@@ -17,6 +17,8 @@ TridentReader::read_background_data(ares::util::Timeline &timeline) {
             std::make_unique<KB>(path_kb.c_str(), true, true, true, config);
         Querier *q = kb->query();
         for (auto const &predicate_string : predicate_vector) {
+            std::cout << "TridentReader: query predicate = " << predicate_string 
+                  << std::endl;
             nTerm predicate_id = 0;
             int pred_len = predicate_string.size();
             char *predicate_key = const_cast<char *>(predicate_string.c_str());
@@ -43,6 +45,8 @@ TridentReader::read_background_data(ares::util::Timeline &timeline) {
             }
         }
     }
+    std::cout << "TridentReader: background facts size = " << result.size()
+              << std::endl;
     return result;
 }
 
@@ -87,13 +91,13 @@ TridentReader::init_grounding(std::string subject, std::string predicate,
 //
 // std::cout << predicate_string << "(" << subject << ", " << object << ");  ";
 //
-//std::cout << "kb path: " << path_kb.c_str() << std::endl;
-//std::cout << std::endl;
+// std::cout << "kb path: " << path_kb.c_str() << std::endl;
+// std::cout << std::endl;
 //
-//std::cout << "predicate " << predicate_string
-          //<< " found: " << p_found
-          //<< "; size: " << pred_len
-          //<< "; predicate_id: " << predicate_id << std::endl;
-          //
-//std::cout << predicate_string << "(" << subj_str << ", "
-          //<< obj_str << ");  " << std::endl;
+// std::cout << "predicate " << predicate_string
+//<< " found: " << p_found
+//<< "; size: " << pred_len
+//<< "; predicate_id: " << predicate_id << std::endl;
+//
+// std::cout << predicate_string << "(" << subj_str << ", "
+//<< obj_str << ");  " << std::endl;

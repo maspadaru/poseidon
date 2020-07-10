@@ -88,23 +88,23 @@ void run(ares::util::ChaseAlgorithm chase_algorithm,
 }
 
 int main(int argc, char **argv) {
-    if (argc < 4) {
+    if (argc < 3) {
         std::cerr << "Usage: poseidon PROGRAM_PATH "
                      "INPUT_PATH TRIDENT_KB_PATH [OUTPUT_PATH]  "
                   << std::endl;
         return 1;
     }
     std::string program_path(argv[1]);
-    std::string stream_path(argv[2]);
-    std::string kb_path(argv[3]);
+    std::string kb_path(argv[2]);
     std::string output_path;
     bool is_output_enabled = false;
-    if (argc == 5) {
-        output_path = argv[4];
+    if (argc == 4) {
+        output_path = argv[3];
         is_output_enabled = true;
     }
     auto chase_algorithm = ares::util::ChaseAlgorithm::RESTRICTED;
     std::string const &rules = read_program(program_path);
+    std::string stream_path = "/tmp/poseidon_stream.fifo";
 
     std::cout << "argc: " << argc << std::endl;
     std::cout << "Program: " << program_path << std::endl;
