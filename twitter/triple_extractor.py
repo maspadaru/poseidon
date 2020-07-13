@@ -1,11 +1,8 @@
 import re
-from stanfordcorenlp import StanfordCoreNLP
 from openie import StanfordOpenIE
 
 class TripleExtractor():
     def __init__(self):
-        # self.nlp = StanfordCoreNLP('../../stanford-corenlp-4.0.0/', memory='8g')
-        # self.nlp.ner("init")
         self.regex_pattern = r'[^\x00-\x7F]+' 
         self.openie = StanfordOpenIE()
 

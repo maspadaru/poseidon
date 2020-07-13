@@ -24,13 +24,13 @@ class StreamListener(tweepy.StreamListener):
         return result
 
 class TwitterApi():
-    def __init__(self, filter_list):
+    def __init__(self):
         self.auth = tweepy.OAuthHandler(config.TWITTER_API_KEY, config.TWITTER_API_SECRET)
         self.auth.set_access_token(config.TWITTER_ACCESS_TOKEN, config.TWITTER_ACCESS_SECRET)
         self.api = tweepy.API(self.auth)
         self.stream_listener = StreamListener()
         self.stream = tweepy.Stream(auth=self.api.auth, listener=self.stream_listener)
-        self.stream.filter(track=filter_list, is_async=True)
+        self.stream.filter(track=config.FILTER, is_async=True)
 
     def get_tweets(self):
         return self.stream_listener.get_recent_tweets()

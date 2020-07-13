@@ -30,8 +30,7 @@ def handle_tweet(tweet, trpext, fifo):
 
     
 def get_twitter_input(trpext):
-    filter=["Amsterdam", "Stockholm", "Copenhagen", "Toronto"]
-    twitter_api = TwitterApi(filter)
+    twitter_api = TwitterApi()
     while True: 
         fifo = open(FIFO_PATH, "w")
         try:    
