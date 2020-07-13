@@ -6,8 +6,8 @@
 * C++ compiler compliant with C++17 standard (tested on GCC 7.3.0 and 
 Clang 6.0.0)
 * CMake (minimum version: 3.7, tested on 3.10)
-* Dependecies (can be installed in Ubuntu 18.04 using `apt`): zlib1g-dev git libboost-all-dev liblz4-dev libtbb-dev libsparsehash-dev python3-dev libcurl-dev
-* Python dependecies (can be installed using `pip`): tweepy stanford-openie
+* Dependencies (can be installed in Ubuntu 18.04 using `apt`): zlib1g-dev git libboost-all-dev liblz4-dev libtbb-dev libsparsehash-dev python3-dev libcurl-dev
+* Python dependencies (can be installed using `pip`): tweepy stanford-openie
 
 ### Ares
 Create a parent directory that will host Ares, Trident and Poseidon. 
@@ -43,8 +43,7 @@ git clone https://github.com/maspadaru/poseidon
 Build Poseidon:
 ```
 cd poseidon
-./build.sh b
-
+./poseidon.sh b
 ```
 
 ### Running sample program 
@@ -58,7 +57,8 @@ cd trident/build
 ./trident load -f wdump-470.nt.gz -i ../data/
 ```
 
-Poseidon has two components: the Twitter Stream Preprocessor and the Reasoner.
+Poseidon has two components: the *Twitter Stream Preprocessor* 
+and the *Reasoner*.
 In order to read the Twitter Stream, a configuration file must be created
 and Twitter API credentials must be filled in.
 ```
@@ -69,7 +69,7 @@ Then the Preprocessor can be started by running:
 ```
 python3 main.py
 ```
-Runnig the Reasoner with the sample program:
+Running the Reasoner with the sample program:
 ```
 cd poseidon
 ./run_sample.sh 
