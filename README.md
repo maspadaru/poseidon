@@ -13,13 +13,13 @@ Clang 6.0.0)
 Create a parent directory that will host Ares, Trident and Poseidon. 
 Inside this parent directory clone Ares:
 ```
-https://github.com/maspadaru/ares
+git clone https://github.com/maspadaru/ares
 ```
 
 ### Trident
 In the same parent directory as Ares, clone Trident:
 ```
-https://github.com/karmaresearch/trident
+git clone https://github.com/karmaresearch/trident
 
 ```
 Checkout Trident to branch primitives:
